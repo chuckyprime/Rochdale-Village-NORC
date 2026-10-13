@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rochdale Village NORC — supportive services, activities, wellness, community connection and client support for older adults.">
+  <title>Rochdale Village NORC | Aging in Place</title>
+  <link rel="icon" type="image/png" href="rochdale-logo.png">
+  <link rel="apple-touch-icon" href="rochdale-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span>Rochdale Village Naturally Occurring Retirement Community</span>
+        <span>169-65 137th Avenue • Jamaica, NY 11434</span>
+      </div>
+    </div>
+
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Rochdale Village NORC home">
+        <span class="brand-mark"><img src="rochdale-logo.png" alt="Rochdale Village logo"></span>
+        <span><strong>ROCHDALE</strong><small>VILLAGE NORC</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About NORC</a>
+        <a href="#services">Services</a>
+        <a href="#staff">Our Team</a>
+        <a href="#activities">Activities</a>
+        <a href="#client">Client</a>
+        <a class="nav-donate" href="breast-cancer-donation.html">Breast Cancer</a>
+        <a class="nav-cta" href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="container hero-content">
+        <div class="eyebrow">ROCHDALE VILLAGE NORC</div>
+        <h1>Supporting seniors.<br><span>Strengthening community.</span></h1>
+        <p>Helping older adults remain independent, connected, active and engaged while aging in place in the Rochdale Village community.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#services">Explore Services</a>
+          <a class="btn btn-light" href="#client">Become a Client</a>
+          <a class="btn btn-breast" href="breast-cancer-donation.html">Support Breast Cancer</a>
+        </div>
+        <div class="hero-note">Serving Rochdale Village residents age 60 and older.</div>
+      </div>
+    </section>
+
+    <section class="quick-bar">
+      <div class="container quick-grid">
+        <a href="#services"><span class="quick-icon">♥</span><span><b>Supportive Services</b><small>Guidance & referrals</small></span></a>
+        <a href="#activities"><span class="quick-icon">✦</span><span><b>Activities</b><small>Wellness & recreation</small></span></a>
+        <a href="#client"><span class="quick-icon">♣</span><span><b>Client</b><small>Give your time</small></span></a>
+        <a href="https://www.instagram.com/rochdale_village_norc/" target="_blank" rel="noopener noreferrer" class="nav-instagram"><svg class="instagram-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg><span>Instagram</span></a>
+        <a href="breast-cancer-donation.html"><span class="quick-icon ribbon-icon">♡</span><span><b>Breast Cancer Support</b><small>Donate through Zeffy</small></span></a>
+        <a href="#contact"><span class="quick-icon">☎</span><span><b>Connect With Us</b><small>Get in touch</small></span></a>
+      </div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="container split">
+        <div>
+          <div class="section-label">ABOUT NORC</div>
+          <h2>A community where older adults can age in place.</h2>
+        </div>
+        <div>
+          <p>Rochdale Village NORC is a supportive social service program for seniors who live in the Rochdale Village cooperative. The program connects residents with services, resources, activities and community opportunities designed to support healthy, vibrant and independent living.</p>
+          <p>NORC stands for <strong>Naturally Occurring Retirement Community</strong>—a model that supports people who have grown older in the homes and community they already know.</p>
+          <a class="text-link" href="#services">Learn about our services →</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <div class="section-label">WHAT WE OFFER</div>
+            <h2>Services built around the community.</h2>
+          </div>
+          <p>NORC brings together supportive resources and community programming to help residents stay connected and independent.</p>
+        </div>
+        <div class="card-grid">
+          <article class="service-card"><div class="card-icon">01</div><h3>Case Management</h3><p>Individualized support, care coordination, service planning and connections to appropriate community resources.</p></article>
+          <article class="service-card"><div class="card-icon">02</div><h3>Case Assistance</h3><p>Assistance with SCRIE, DRIE, SNAP and other benefits, applications and community resources.</p></article>
+          <article class="service-card"><div class="card-icon">03</div><h3>Health-Care Management</h3><p>Support with coordinating health-related needs, wellness resources and ongoing care connections.</p></article>
+          <article class="service-card"><div class="card-icon">04</div><h3>Health-Care Assistance</h3><p>Help connecting residents with health-care information, services, programs and community resources.</p></article>
+          <article class="service-card"><div class="card-icon">05</div><h3>Telephone Reassurance</h3><p>Friendly check-in calls that help residents stay connected, supported and informed.</p></article>
+          <article class="service-card"><div class="card-icon">06</div><h3>Friendly Home Visits</h3><p>Compassionate visits that provide social connection, check-ins and supportive community engagement.</p></article>
+          <article class="service-card"><div class="card-icon">07</div><h3>Referral Services</h3><p>Connections to health care, social services, benefits, community organizations and other resources.</p></article>
+          <article class="service-card"><div class="card-icon">08</div><h3>Volunteer Services</h3><p>Volunteer opportunities and support that strengthen community connections and assist residents.</p></article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section staff" id="staff"><div class="container"><div class="section-heading centered"><div class="section-label">MEET THE NORC TEAM</div><h2>The people behind the program.</h2><p>Our NORC team works together to support residents, coordinate services and strengthen community life.</p></div><div class="staff-grid">
+<button class="staff-card" data-member="phara"><span class="staff-avatar staff-photo"><img src="phara-profile.jpg" alt="Phara Carolei"></span><span class="staff-role">EXECUTIVE DIRECTOR</span><strong>Phara Carolei</strong><span class="staff-credentials">LMSWI<br>SIFI (Seminar In Field Instruction) Certification</span><span class="staff-link">View Bio →</span></button>
+<button class="staff-card" data-member="irvica"><span class="staff-avatar staff-photo"><img src="irvica-profile.jpg" alt="Irvica Galla"></span><span class="staff-role">REGISTERED NURSE</span><strong>Irvica Galla</strong><span class="staff-link">View Bio →</span></button>
+<button class="staff-card" data-member="hurgens"><span class="staff-avatar">HP</span><span class="staff-role">CASE WORKER</span><strong>Hurgens Pignard <small>(Mr. P)</small></strong><span class="staff-link">View Bio →</span></button>
+<button class="staff-card" data-member="sade"><span class="staff-avatar">SA</span><span class="staff-role">SOCIAL WORKER</span><strong>Sade Afolabi</strong><span class="staff-link">View Bio →</span></button>
+<button class="staff-card" data-member="utkarsha"><span class="staff-avatar staff-photo"><img src="utkarsha-profile.jpg" alt="Utkarsha Pagar"></span><span class="staff-role">DATA MANAGEMENT SPECIALIST / ADMIN ASST.</span><strong>Utkarsha Pagar</strong><span class="staff-link">View Bio →</span></button>
+<button class="staff-card" data-member="deevika"><span class="staff-avatar staff-photo"><img src="deevika-profile.jpg" alt="Deevika Presaud"></span><span class="staff-role">CASE WORKER</span><strong>Deevika Presaud</strong><span class="staff-link">View Bio →</span></button>
+</div></div></section>
+<div class="bio-modal" id="bioModal" aria-hidden="true"><div class="bio-backdrop" data-close-bio></div><div class="bio-dialog" role="dialog" aria-modal="true" aria-labelledby="bioName"><button class="bio-close" id="bioClose" aria-label="Close bio">×</button><div class="bio-avatar" id="bioAvatar">PC</div><div class="section-label" id="bioRole">DIRECTOR</div><h3 id="bioName">Phara Carolei</h3><p id="bioText"></p><div class="bio-note">Staff bio shown here is a concise website profile and can be replaced with an approved official biography.</div></div></div>
+
+    <section class="section activities" id="activities">
+      <div class="container">
+        <div class="section-heading centered">
+          <div class="section-label">COMMUNITY LIFE</div>
+          <h2>Stay active. Stay connected.</h2>
+          <p>NORC activities are designed to bring residents together while supporting healthy and engaged lifestyles.</p>
+        </div>
+        <div class="activity-grid">
+          <div class="activity featured"><span>WELLNESS</span><h3>Exercise & Movement</h3><p>Programs that encourage safe, active living.</p></div>
+          <div class="activity"><span>LEARN</span><h3>Educational Seminars</h3><p>Informative sessions on topics important to older adults.</p></div>
+          <div class="activity"><span>CONNECT</span><h3>Social Activities</h3><p>Opportunities to meet neighbors and build friendships.</p></div>
+          <div class="activity"><span>EXPLORE</span><h3>Trips & Recreation</h3><p>Community experiences and recreational opportunities.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section client" id="client">
+      <div class="container client-wrap">
+        <div>
+          <div class="section-label">CLIENT WITH NORC</div>
+          <h2>We are here to support you.</h2>
+          <p>NORC clients can connect with services, programs and resources that support healthy, active and independent living in Rochdale Village. Tell us a little about what you need so our team can better assist you.</p>
+          <div class="client-points">
+            <span>✓ Access NORC services</span>
+            <span>✓ Connect with resources</span>
+            <span>✓ Participate in activities</span>
+            <span>✓ Get community support</span>
+          </div>
+        </div>
+
+        <form class="form-card" id="clientForm">
+          <h3>Client Support Request Form</h3>
+          <label>Full Name<input required name="name" type="text" placeholder="Your name"></label>
+          <label>Email<input required name="email" type="email" placeholder="you@example.com"></label>
+          <label>Phone<input name="phone" type="tel" placeholder="(555) 555-5555"></label>
+          <label>What support are you interested in?
+            <select name="interest">
+              <option>Health & wellness</option>
+              <option>Social services / case management</option>
+              <option>Activities & events</option>
+              <option>Benefits & community resources</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <label>Message<textarea name="message" rows="4" placeholder="Tell us how we can help you..."></textarea></label>
+          <button class="btn btn-primary full" type="submit">Submit Request</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact-strip" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <div class="section-label light-label">CONTACT NORC</div>
+          <h2>Let's connect.</h2>
+          <p>Questions about NORC services, activities or client support? Contact the NORC office.</p>
+        </div>
+        <div class="contact-item"><span>📍</span><div><b>Office</b><p>169-65 137th Avenue<br>Rooms 19 & 20<br>Jamaica, NY 11434</p></div></div>
+        <div class="contact-item"><span>☎</span><div><b>Phone</b><p><a href="tel:+17185252800">(718) 525-2800 Ext. 2</a></p></div></div>
+        <div class="contact-item"><span>◷</span><div><b>Office Hours</b><p>Monday – Friday<br>9:00 AM – 5:00 PM</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <div class="instagram-footer-link"><a href="https://www.instagram.com/rochdale_village_norc/" target="_blank" rel="noopener noreferrer"><svg class="instagram-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg><span>Follow Rochdale Village NORC on Instagram</span></a></div>
+    <footer>
+    <div class="container footer-inner">
+      <div><strong>ROCHDALE VILLAGE NORC</strong><p>Supporting healthy, vibrant and independent aging in place.</p></div>
+      <div class="footer-links"><a href="#about">About</a><a href="#services">Services</a><a href="#activities">Activities</a><a href="#client">Client</a><a href="breast-cancer-donation.html">Breast Cancer Support</a><a href="#contact">Contact</a></div>
+    </div>
+    <div class="copyright">© <span id="year"></span> Rochdale Village NORC. Website concept and interface.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Support breast cancer awareness and community support through Rochdale Village NORC.">
+  <title>Breast Cancer Support | Rochdale Village NORC</title>
+  <link rel="icon" type="image/png" href="rochdale-logo.png">
+  <link rel="apple-touch-icon" href="rochdale-logo.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="breast-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="topbar"><div class="container topbar-inner"><span>Rochdale Village Naturally Occurring Retirement Community</span><span>169-65 137th Avenue • Jamaica, NY 11434</span></div></div>
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Rochdale Village NORC home"><span class="brand-mark"><img src="rochdale-logo.png" alt="Rochdale Village logo"></span><span><strong>ROCHDALE</strong><small>VILLAGE NORC</small></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="navLinks">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="index.html">Home</a><a href="index.html#about">About NORC</a><a href="index.html#services">Services</a><a href="index.html#staff">Our Team</a><a href="index.html#activities">Activities</a><a href="index.html#client">Client</a><a class="nav-donate" href="breast-cancer-donation.html">Breast Cancer</a><a class="nav-cta" href="index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="breast-hero">
+      <div class="container breast-content">
+        <div class="ribbon-mark" aria-hidden="true">♡</div>
+        <div class="breast-eyebrow">COMMUNITY SUPPORT & AWARENESS</div>
+        <h1>Support Breast Cancer Awareness & Community Care</h1>
+        <p>Help Rochdale Village NORC support community-centered awareness, education and compassionate outreach around breast cancer.</p>
+      </div>
+    </section>
+
+    <section class="donation-section">
+      <div class="container donation-layout">
+        <div class="donation-info">
+          <div class="section-label" style="color:#b23b7d">MAKE A DIFFERENCE</div>
+          <h2>Your support can help strengthen our community.</h2>
+          <p>Donations can help support breast cancer awareness activities, educational outreach and community initiatives. Every contribution can help us create opportunities for residents and families to stay informed, connected and supported.</p>
+          <ul class="donation-list">
+            <li>♡ Support breast cancer awareness and education</li>
+            <li>♡ Help strengthen community outreach</li>
+            <li>♡ Support programs and activities for residents</li>
+            <li>♡ Give a one-time or recurring contribution through Zeffy</li>
+          </ul>
+          <p class="donation-disclaimer">Please use the official Rochdale Village NORC Zeffy campaign below once it has been configured by the organization. The NORC website does not collect or store your card information.</p>
+        </div>
+
+        <div class="zeffy-box">
+          <h3>Breast Cancer Donation</h3>
+          <p>Secure donation checkout powered by Zeffy.</p>
+          <div id="zeffyDonationArea"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div><strong>Rochdale Village NORC</strong><p>Supporting seniors. Strengthening community.</p></div>
+      <div class="footer-links"><a href="index.html#about">About</a><a href="index.html#services">Services</a><a href="index.html#activities">Activities</a><a href="index.html#client">Client</a><a href="breast-cancer-donation.html">Breast Cancer Support</a><a href="index.html#contact">Contact</a></div>
+    </div>
+    <div class="copyright">© <span id="year"></span> Rochdale Village NORC. All rights reserved.</div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const navLinks = document.getElementById('navLinks');
+    menuToggle.addEventListener('click', () => { const open = navLinks.classList.toggle('open'); menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false'); });
+    document.querySelectorAll('.nav-links a').forEach(link => link.addEventListener('click', () => { navLinks.classList.remove('open'); menuToggle.setAttribute('aria-expanded','false'); }));
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Replace this placeholder with the official Zeffy campaign/share URL for the breast cancer fundraiser.
+    const ZEFFY_DONATION_URL = 'https://www.zeffy.com/en-US/donation-form/donate-to-change-lives-of-older-adults';
+    const area = document.getElementById('zeffyDonationArea');
+    if (ZEFFY_DONATION_URL.startsWith('https://www.zeffy.com/')) {
+      const iframe = document.createElement('iframe');
+      iframe.className = 'zeffy-embed';
+      iframe.src = ZEFFY_DONATION_URL;
+      iframe.title = 'Rochdale Village NORC breast cancer donation form';
+      iframe.loading = 'lazy';
+      iframe.allow = 'payment';
+      area.appendChild(iframe);
+    } else {
+      area.innerHTML = `
+        <div class="zeffy-placeholder">
+          <div class="ribbon-mark" aria-hidden="true">♡</div>
+          <h4>Zeffy Donation Form</h4>
+          <p>Donations are processed securely through the Rochdale Village NORC Zeffy campaign.</p>
+          <a class="btn btn-breast" href="https://www.zeffy.com/" target="_blank" rel="noopener noreferrer">Open Zeffy</a>
+        </div>`;
+    }
+  </script>
+</body>
+</html>
